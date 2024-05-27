@@ -9,8 +9,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
-    permissions:
-      contents: read
+    permissions: read-all
     steps:
       - uses: actions/checkout@v2
         with:
