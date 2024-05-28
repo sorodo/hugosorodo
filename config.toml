@@ -60,7 +60,7 @@ IsMultiLingual = false
   showPosts = true
 
   # Shows the ReadMore button in text instead
-  ReadmoreText = true
+  ReadmoreText = false
 
   # Hides ReadMore
   hideReadMore = false
