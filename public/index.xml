@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hello Friend NG</title>
-    <link>localhost/</link>
-    <description>Recent content on Hello Friend NG</description>
+    <title>sorodo猫娘</title>
+    <link>http://localhost:1313/hugosorodo/</link>
+    <description>Recent content on sorodo猫娘</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>zh</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 28 May 2024 00:22:02 +0800</lastBuildDate>
-    <atom:link href="localhost/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugosorodo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First</title>
-      <link>localhost/post/first/</link>
+      <title>初始博客</title>
+      <link>http://localhost:1313/hugosorodo/post/first/</link>
       <pubDate>Tue, 28 May 2024 00:22:02 +0800</pubDate>
-      <guid>localhost/post/first/</guid>
-      <description></description>
+      <guid>http://localhost:1313/hugosorodo/post/first/</guid>
+      <description>测试 ps:在最优化的课堂上摸鱼终于搭建好网站记录一下第一个blog,后续更新网站搭建的步骤&#xA;hugo博客搭建记录 图1 </description>
     </item>
     <item>
       <title>About</title>
-      <link>localhost/about/</link>
+      <link>http://localhost:1313/hugosorodo/about/</link>
       <pubDate>Tue, 28 May 2024 00:21:18 +0800</pubDate>
-      <guid>localhost/about/</guid>
+      <guid>http://localhost:1313/hugosorodo/about/</guid>
       <description>A headline Some Content</description>
     </item>
   </channel>
