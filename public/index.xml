@@ -30,5 +30,12 @@
       <guid>http://localhost:1313/hugosorodo/about/</guid>
       <description>A headline Some Content</description>
     </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugosorodo/posts/1/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugosorodo/posts/1/01/</guid>
+      <description>变分贝叶斯方法（Variational Bayesian Methods）是一种用于近似复杂后验分布的技术。其核心思想是将难以计算的后验分布转化为一个优化问题，通过寻找一个简单的分布族来近似真实的后验分布。以下是使用变分贝叶斯方法求解后验分布的基本步骤：&#xA;基本步骤 定义后验分布： 假设我们有一个概率模型，包含观测数据 ( \mathbf{X} ) 和参数 ( \mathbf{\theta} )。后验分布 ( p(\mathbf{\theta} | \mathbf{X}) ) 可以通过贝叶斯公式表示为： [ p(\mathbf{\theta} | \mathbf{X}) = \frac{p(\mathbf{X} | \mathbf{\theta}) p(\mathbf{\theta})}{p(\mathbf{X})} ] 其中， ( p(\mathbf{X} | \mathbf{\theta}) ) 是似然函数， ( p(\mathbf{\theta}) ) 是先验分布， ( p(\mathbf{X}) ) 是边缘似然。&#xA;选择变分分布族： 选择一个简单的分布族 ( q(\mathbf{\theta} | \mathbf{\lambda}) ) 来近似真实的后验分布 ( p(\mathbf{\theta} | \mathbf{X}) )，其中 ( \mathbf{\lambda} ) 是变分分布的参数。&#xA;变分推断目标： 最大化变分下界（Evidence Lower BOund, ELBO），以最小化KL散度 ( D_{KL}(q(\mathbf{\theta} | \mathbf{\lambda}) | p(\mathbf{\theta} | \mathbf{X})) )。变分下界定义为： [ \mathcal{L}(\mathbf{\lambda}) = \mathbb{E}_{q(\mathbf{\theta} | \mathbf{\lambda})} \left[ \log p(\mathbf{X}, \mathbf{\theta}) - \log q(\mathbf{\theta} | \mathbf{\lambda}) \right] ] 由于 ( p(\mathbf{X}) ) 是一个常数，可以通过最大化ELBO来间接最小化KL散度。</description>
+    </item>
   </channel>
 </rss>
