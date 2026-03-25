@@ -1,7 +1,7 @@
 baseurl      = "https://sorodo.github.io/hugosorodo/"
-title        = "My Blog"
+title        = "Sorodo Research"
 languageCode = "zh-cn"
-theme        = "hello-4s3ti"
+theme        = "digio-theme"
 paginate     = 10
 defaultContentLanguage = "zh"
 
@@ -40,7 +40,7 @@ IsMultiLingual = false
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "Welcome to sorodo's kitty room"
+  homeSubtitle = "Welcome to sorodo's research page"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -49,8 +49,8 @@ IsMultiLingual = false
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
+  description = "Sorodo's research page"
+  keywords = "research, publications, projects"
   images = [""]
 
   backgroundImage  = "https://s3.bmp.ovh/imgs/2024/05/28/6cbf66f0685e40c5.jpg"
@@ -81,7 +81,7 @@ IsMultiLingual = false
     topText = []
     bottomText = [
       "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Hello 4s3ti theme by <a href=\"https://github.com/4s3ti\">4s3ti</a>"
+      "Digio theme by <a href=\"https://github.com/digio-theme\">Digio</a>"
     ]
     
   # Colors for favicons
@@ -119,16 +119,16 @@ IsMultiLingual = false
 
 [languages]
   [languages.zh]
-    title = "sorodo猫娘"
+    title = "Sorodo Research"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.zh.params]
-      subtitle = "喵喵喵"
+      subtitle = ""
 
     [languages.zh.params.logo]
-      logoText = "只要足够可爱哪怕只会喵喵喵那也没问题吧"
+      logoText = ""
       logoHomeLink = ""
       # logoCursorColor    = "#67a2c9"
       logoCursorAnimate  = "2s"
@@ -140,11 +140,26 @@ IsMultiLingual = false
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+    identifier = "research"
+    name       = "Research"
+    url        = "/research"
 
   [[menu.main]]
-    identifier = "pixiv"
-    name       = "Paint"
-    url        = "/pixiv"
+    identifier = "publications"
+    name       = "Publications"
+    url        = "/publications"
+
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
+
+  [[menu.main]]
+    identifier = "me"
+    name       = "Me"
+    url        = "/me"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"

@@ -1,8 +1,6 @@
 +++
 title = "研究方向"
-icon = "/images/writing.png"
-externalLinks = [
-]
+icon = "writing.png"
 +++
 
 这里展示我的主要研究方向和领域工作。

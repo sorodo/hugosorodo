@@ -1,5 +1,5 @@
 +++
-portraitImage = "/images/avatar.png"
+portraitImage = "portrait.png"
 introTitle = "Sorodo 的科研空间"
 introBody = """
 这里是 Sorodo 的科研主页，记录研究历程、分享学术思考。
@@ -8,9 +8,9 @@ introBody = """
 
 欢迎交流与合作。
 """
-statusImage = "/images/status.png"
+statusImage = "status.png"
 statusText = "当前状态：正在进行研究项目的数据分析"
-watchingImage = "/images/watching.png"
+watchingImage = "watching.png"
 watchingText = "正在关注：机器学习领域的最新进展"
 watchingUrl = "https://arxiv.org/list/cs.LG/recent"
 +++

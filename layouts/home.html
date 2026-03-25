@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $portrait := (or $p.portraitImage "portrait.png") }}
+{{ $status := (or $p.statusImage "status.png") }}
+{{ $watching := (or $p.watchingImage "watching.png") }}
+<div class="grid lg:grid-cols-2 gap-4">
+	<div class="not-prose flex cursor-default flex-col space-y-4 rounded-lg border border-white p-4">
+		<img src="{{ $portrait | relURL }}" alt="Portrait" class="w-full h-auto">
+		<div>
+			{{ with $p.introTitle }}<strong>{{ . }}</strong>{{ end }}
+			{{ with $p.introBody }}{{ . | markdownify }}{{ end }}
+		</div>
+	</div>
+	<div class="grid lg:grid-rows-2 gap-4">
+		<div class="not-prose flex cursor-default flex-col space-y-2 rounded-lg border border-white p-6">
+			<img src="{{ $status | relURL }}" alt="Status" class="self-start">
+			{{ with $p.statusText }}<div>{{ . | markdownify }}</div>{{ end }}
+		</div>
+		<div class="not-prose flex cursor-default flex-col space-y-2 rounded-lg border border-white p-6">
+			<img src="{{ $watching | relURL }}" alt="Watching" class="self-start">
+			{{ if or $p.watchingUrl $p.watchingText }}
+				<p class="underline">
+					{{ if $p.watchingUrl }}<a href="{{ $p.watchingUrl }}">{{ end }}
+					{{ or $p.watchingText "" }}
+					{{ if $p.watchingUrl }}</a>{{ end }}
+				</p>
+			{{ end }}
+		</div>
+	</div>
+</div>
+{{ .Content }}
+{{ end }}

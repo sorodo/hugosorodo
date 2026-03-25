@@ -1,6 +1,6 @@
 +++
 title = "发表论文"
-icon = "/images/writing.png"
+icon = "writing.png"
 +++
 
 这里列出我发表的学术论文。

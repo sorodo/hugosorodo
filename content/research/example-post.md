@@ -1,8 +1,9 @@
 +++
 title = "示例研究文章"
 date = 2025-03-25
-listIcon = "/images/writing.png"
+listIcon = "writing.png"
 teaser = "这是一篇示例研究文章，展示如何在新主题下发布内容"
+tags = ["research"]
 +++
 
 这是一篇示例研究文章内容。

@@ -1,8 +1,6 @@
 +++
 title = "研究项目"
-icon = "/images/writing.png"
-externalLinks = [
-]
+icon = "writing.png"
 +++
 
 这里展示我参与或主导的研究项目。
