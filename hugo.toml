@@ -1,0 +1,40 @@
+baseURL = 'https://sorodo.github.io/hugosorodo/'
+languageCode = 'zh-cn'
+title = "Sorodo Research"
+theme = 'digio-theme'
+
+# 分页设置
+paginate = 10
+
+[params]
+  # 站点描述
+  description = "Sorodo 的科研主页 - 记录研究历程与学术思考"
+  
+  # 页脚版权
+  copyright = "© 2025 Sorodo"
+
+# 主菜单（科研导向）
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "研究"
+  url = "/research"
+  weight = 20
+
+[[menu.main]]
+  name = "论文"
+  url = "/publications"
+  weight = 30
+
+[[menu.main]]
+  name = "项目"
+  url = "/projects"
+  weight = 40
+
+[[menu.main]]
+  name = "关于"
+  url = "/about"
+  weight = 50
