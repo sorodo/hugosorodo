@@ -1,3 +1,6 @@
+# 加到 config.toml 顶部（theme 配置之后）
+ignoreFiles = ["themes/digio-theme/content/open-source/**", "themes/digio-theme/content/write/**"]
+
 baseurl      = "https://sorodo.github.io/hugosorodo/"
 title        = "Sorodo Research"
 languageCode = "zh-cn"
@@ -5,112 +8,8 @@ theme        = "digio-theme"
 paginate     = 10
 defaultContentLanguage = "zh"
 
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
-
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-# copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-
-archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "public"
-
-enableRobotsTXT = true
-enableGitInfo   = false
-enableEmoji     = true
-enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
-disable404     = false
-disableHugoGeneratorInject = false
-IsMultiLingual = false
-
-[permalinks]
-  posts = "/posts/:year/:month/:title/"
-
 [author]
   name = "sorodo"
-
-[params]
-  dateform        = "Jan 2, 2006" 
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
-
-  # Subtitle for home
-  homeSubtitle = "Welcome to sorodo's research page"
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
-
-  # Enable sharing buttons, if you like
-  enableSharingButtons = true
-
-  # Metadata mostly used in document's head
-  description = "Sorodo's research page"
-  keywords = "research, publications, projects"
-  images = [""]
-
-  backgroundImage  = "https://s3.bmp.ovh/imgs/2024/05/28/6cbf66f0685e40c5.jpg"
-  backgroundEffects = true
-
-  # Shows Posts on the front/Home page
-  showPosts = true
-
-  # Shows the ReadMore button in text instead
-  ReadmoreText = false
-
-  # Hides ReadMore
-  hideReadMore = false
-
-  # Shows reding time
-  ShowReadingTime = true
-
-  
-  [params.footer]
-    trademark = true
-    rss = true
-    copyright = true
-    author = true
-
-    # Shows social icons on footer instead of main page
-    socialIcons = true
-
-    topText = []
-    bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Digio theme by <a href=\"https://github.com/digio-theme\">Digio</a>"
-    ]
-    
-  # Colors for favicons
-  #
-  [params.favicon.color]
-    mask = "#1b1c1d"
-    msapplication = "#1b1c1d"
-    theme = "#1b1c1d"
-
-  
-  [params.portrait]
-    path     = "https://s3.bmp.ovh/imgs/2024/05/28/0d526b71da9a5101.jpg"
-    alt      = "Portrait"
-    maxWidth = "50px"
-
-  # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:nobody@example.com"
-    icon = "fa-solid fa-envelope"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/"
-
 
 [taxonomies]
     category = "blog"
@@ -120,23 +19,7 @@ IsMultiLingual = false
 [languages]
   [languages.zh]
     title = "Sorodo Research"
-    keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-    [languages.zh.params]
-      subtitle = ""
-
-    [languages.zh.params.logo]
-      logoText = ""
-      logoHomeLink = ""
-      # logoCursorColor    = "#67a2c9"
-      logoCursorAnimate  = "2s"
-    # or
-    #
-    # path = "toux.svg"
-    # alt = "Your example logo alt text"
-
 
   # And you can even create generic menu
   [[menu.main]]

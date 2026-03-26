@@ -10,7 +10,7 @@ AI / Sim2Real / Robotics
 
 Welcome for Communication.
 """
-statusImage = "toux.png"
+statusImage = "status.png"
 statusText = "Currently working on research projects involving data analysis"
 watchingImage = "watching.png"
 watchingText = "Currently following: Latest developments in AI"
