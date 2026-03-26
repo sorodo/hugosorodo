@@ -1,5 +1,5 @@
 # 加到 config.toml 顶部（theme 配置之后）
-ignoreFiles = ["themes/digio-theme/content/open-source/**", "themes/digio-theme/content/write/**"]
+ignoreFiles = ["themes/digio-theme/content/open-source/*", "themes/digio-theme/content/write/*"]
 
 baseurl      = "https://sorodo.github.io/hugosorodo/"
 title        = "Sorodo Research"
