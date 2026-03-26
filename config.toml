@@ -145,9 +145,9 @@ IsMultiLingual = false
     url        = "/research"
 
   [[menu.main]]
-    identifier = "publications"
-    name       = "Publications"
-    url        = "/publications"
+    identifier = "tech sharing"
+    name       = "Tech Sharing"
+    url        = "/tech-sharing"
 
   [[menu.main]]
     identifier = "projects"
@@ -160,6 +160,6 @@ IsMultiLingual = false
     url        = "/me"
 
   [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about"
+    identifier = "HOME"
+    name       = "HOME"
+    url        = "/"

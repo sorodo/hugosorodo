@@ -1,25 +1,11 @@
 +++
-title = "示例研究文章"
+title = "Example Research Article"
 date = 2025-03-25
 listIcon = "writing.png"
-teaser = "这是一篇示例研究文章，展示如何在新主题下发布内容"
+teaser = "An example research article page"
 tags = ["research"]
 +++
 
-这是一篇示例研究文章内容。
+No articles yet, website testing, please look forward to it.
 
-## 研究背景
 
-请在这里描述研究的背景和动机。
-
-## 研究方法
-
-详细描述研究采用的方法和实验设计。
-
-## 主要发现
-
-总结研究的主要发现和结论。
-
-## 未来工作
-
-展望后续研究方向。

@@ -1,10 +1,10 @@
 +++
-title = "研究项目"
+title = "Projects"
 icon = "writing.png"
 +++
 
-这里展示我参与或主导的研究项目。
+Here I showcase my research projects.
 
-## 项目列表
+## Project List
 
-详见具体项目文章。
+See individual project articles for details.

@@ -1,38 +1,35 @@
 +++
-title = "关于我"
+title = "About"
 layout = "me"
 likes = [
-  "深入探索复杂问题",
-  "跨学科研究",
-  "开源科学",
-  "数据可视化",
-  "学术写作",
-  "技术交流"
+  "Exploring complex problems",
+  "Interdisciplinary research",
+  "Open science",
+  "Technical exchange"
 ]
 dislikes = [
-  "形式主义",
-  "重复造轮子",
-  "数据不透明"
+  "Formalism",
+  "Reinventing the wheel",
+  "Data opacity"
 ]
 hobbies = [
-  "阅读论文",
-  "编程实验",
-  "学术交流",
-  "技术博客写作",
-  "开源项目贡献"
+  "Painting",
+  "Bartending",
+  "Music",
+  "Cosplay"
 ]
 +++
 
-这里是关于 Sorodo 的详细介绍页面。
+This is the detailed introduction page for Sorodo.
 
-## 研究兴趣
+## Research Interests
 
-- 机器学习与人工智能
-- 数据科学与分析
-- 跨学科应用研究
+- Machine Learning and Artificial Intelligence
+- Data Science and Analysis
+- Interdisciplinary Applications
 
-## 联系方式
+## Contact
 
-欢迎通过以下方式与我交流：
+Feel free to connect with me through the following channels:
 - GitHub: https://github.com/sorodo
-- Email: [你的邮箱]
+- Email: [sun_ledi@qq.com]

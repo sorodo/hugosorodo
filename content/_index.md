@@ -2,15 +2,17 @@
 portraitImage = "portrait.png"
 introTitle = "Sorodo 的科研空间"
 introBody = """
-这里是 Sorodo 的科研主页，记录研究历程、分享学术思考。
+Sorodo 的技术分享主页，记录研究历程、分享学术思考。
 
-研究方向：机器学习 / 数据科学 / 跨学科应用
+Sorodo's technology sharing homepage, recording research progress and sharing academic thoughts
 
-欢迎交流与合作。
+AI / Sim2Real / Robotics
+
+Welcome for Communication.
 """
-statusImage = "status.png"
-statusText = "当前状态：正在进行研究项目的数据分析"
+statusImage = "toux.png"
+statusText = "Currently working on research projects involving data analysis"
 watchingImage = "watching.png"
-watchingText = "正在关注：机器学习领域的最新进展"
+watchingText = "Currently following: Latest developments in AI"
 watchingUrl = "https://arxiv.org/list/cs.LG/recent"
 +++

@@ -1,16 +1,16 @@
 +++
-title = "研究方向"
+title = "Research"
 icon = "writing.png"
 +++
 
-这里展示我的主要研究方向和领域工作。
+Here I showcase my main research directions and fieldwork.
 
-## 主要研究兴趣
+## Main Research Interests
 
-- 机器学习与人工智能
-- 数据科学方法
-- 跨学科应用研究
+- Machine Learning and Artificial Intelligence
+- Sim2Real
+- Robotics and Automation
 
-## 在研项目
+## Current Projects
 
-详见具体文章列表。
+See the specific article list for details.
