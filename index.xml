@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sorodo Research</title><link>https://sorodo.github.io/hugosorodo/</link><description>Recent content on Sorodo Research</description><generator>Hugo</generator><language>zh-cn</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener"&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://sorodo.github.io/hugosorodo/index.xml" rel="self" type="application/rss+xml"/><item><title>示例研究文章</title><link>https://sorodo.github.io/hugosorodo/research/example-post/</link><pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate><guid>https://sorodo.github.io/hugosorodo/research/example-post/</guid><description>&lt;p&gt;这是一篇示例研究文章内容。&lt;/p&gt;
-&lt;h2 id="研究背景"&gt;研究背景&lt;/h2&gt;
-&lt;p&gt;请在这里描述研究的背景和动机。&lt;/p&gt;
-&lt;h2 id="研究方法"&gt;研究方法&lt;/h2&gt;
-&lt;p&gt;详细描述研究采用的方法和实验设计。&lt;/p&gt;
-&lt;h2 id="主要发现"&gt;主要发现&lt;/h2&gt;
-&lt;p&gt;总结研究的主要发现和结论。&lt;/p&gt;
-&lt;h2 id="未来工作"&gt;未来工作&lt;/h2&gt;
-&lt;p&gt;展望后续研究方向。&lt;/p&gt;</description></item><item><title>人间观察日记24/6/13</title><link>https://sorodo.github.io/hugosorodo/posts/2024/06/%E4%BA%BA%E9%97%B4%E8%A7%82%E5%AF%9F%E6%97%A5%E8%AE%B024/6/13/</link><pubDate>Thu, 13 Jun 2024 17:07:02 +0800</pubDate><guid>https://sorodo.github.io/hugosorodo/posts/2024/06/%E4%BA%BA%E9%97%B4%E8%A7%82%E5%AF%9F%E6%97%A5%E8%AE%B024/6/13/</guid><description>&lt;h2 id="2024年6月13日-天气超级大太阳"&gt;2024年6月13日 天气：超级大太阳&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sorodo Research</title><link>https://sorodo.github.io/hugosorodo/</link><description>Recent content on Sorodo Research</description><generator>Hugo</generator><language>zh-cn</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener"&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://sorodo.github.io/hugosorodo/index.xml" rel="self" type="application/rss+xml"/><item><title>Example Research Article</title><link>https://sorodo.github.io/hugosorodo/research/example-post/</link><pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate><guid>https://sorodo.github.io/hugosorodo/research/example-post/</guid><description>&lt;p&gt;No articles yet, website testing, please look forward to it.&lt;/p&gt;</description></item><item><title>人间观察日记24/6/13</title><link>https://sorodo.github.io/hugosorodo/posts/2024/06/%E4%BA%BA%E9%97%B4%E8%A7%82%E5%AF%9F%E6%97%A5%E8%AE%B024/6/13/</link><pubDate>Thu, 13 Jun 2024 17:07:02 +0800</pubDate><guid>https://sorodo.github.io/hugosorodo/posts/2024/06/%E4%BA%BA%E9%97%B4%E8%A7%82%E5%AF%9F%E6%97%A5%E8%AE%B024/6/13/</guid><description>&lt;h2 id="2024年6月13日-天气超级大太阳"&gt;2024年6月13日 天气：超级大太阳&lt;/h2&gt;
 &lt;p&gt;很热的天，很难起来的床。幸好哥们点了催眠，束缚，混乱抗性，能从被子的丸吞当中逃脱，走出寝室，沟槽的忘记点燃烧抗性了。 &lt;br&gt;
 度过一个在混乱中写报告的最优化复习课之后就匆匆离开教学楼去吃了一盘牛蛙。&lt;/p&gt;
 &lt;h3&gt;&lt;/h3&gt;
@@ -136,8 +128,7 @@ ps: 这三者都需要环境变量的配置 &lt;br&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这个时候如果出现了一下错误，请返回第0步，更换你的hugo版本，选择extend版本&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code class="language-Error" data-lang="Error"&gt;Error building site: TOCSS: failed to transform &amp;#34;scss/main.scss&amp;#34; (text/x-scss): resource &amp;#34;scss/scss/main.scss_de1a7f5f1c8c46959803c429bb697ff0&amp;#34; not found in file cache
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;不出意外的话就可以访问cmd输出的一个本地的地址了 &lt;br&gt;
-生成静态文件，准备进一步托管&lt;/p&gt;</description></item><item><title>About</title><link>https://sorodo.github.io/hugosorodo/about/</link><pubDate>Tue, 28 May 2024 00:21:18 +0800</pubDate><guid>https://sorodo.github.io/hugosorodo/about/</guid><description>&lt;h2 id="a-headline"&gt;A headline&lt;/h2&gt;
-&lt;p&gt;Some Content&lt;/p&gt;</description></item><item><title>example1</title><link>https://sorodo.github.io/hugosorodo/write/test/</link><pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate><guid>https://sorodo.github.io/hugosorodo/write/test/</guid><description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;
+生成静态文件，准备进一步托管&lt;/p&gt;</description></item><item><title>example1</title><link>https://sorodo.github.io/hugosorodo/write/test/</link><pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate><guid>https://sorodo.github.io/hugosorodo/write/test/</guid><description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;unordered list item 1&lt;/li&gt;
 &lt;li&gt;unordered list item 2&lt;/li&gt;
@@ -201,4 +192,16 @@ ps: 这三者都需要环境变量的配置 &lt;br&gt;
 &lt;li&gt;&lt;input disabled="" type="checkbox"&gt; to do list&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;</description></item><item><title>About</title><link>https://sorodo.github.io/hugosorodo/me/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sorodo.github.io/hugosorodo/me/</guid><description>&lt;p&gt;This is the detailed introduction page for Sorodo.&lt;/p&gt;
+&lt;h2 id="research-interests"&gt;Research Interests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Machine Learning and Artificial Intelligence&lt;/li&gt;
+&lt;li&gt;Data Science and Analysis&lt;/li&gt;
+&lt;li&gt;Interdisciplinary Applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="contact"&gt;Contact&lt;/h2&gt;
+&lt;p&gt;Feel free to connect with me through the following channels:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/sorodo"&gt;https://github.com/sorodo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: [sun_ledi@qq.com]&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
